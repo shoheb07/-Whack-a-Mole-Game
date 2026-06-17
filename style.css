@@ -1,0 +1,26 @@
+body{
+    background:#2d6a4f;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+}
+
+.board{
+    width:450px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.hole{
+    width:120px;
+    height:120px;
+    background:#6c757d;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.mole{
+    background:brown;
+}
